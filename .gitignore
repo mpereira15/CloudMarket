@@ -1,0 +1,5 @@
+node_modules/
+.next/
+.vscode/
+ethereum/build/**
+package-lock.json
