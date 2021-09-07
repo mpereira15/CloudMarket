@@ -11,7 +11,7 @@
 
 const Web3 = require('web3');
 const HDWalletProvider = require('@truffle/hdwallet-provider');
-const compiledContract = require('./build/CloudMarket.json');
+const compiledContract = require('../build/CloudMarket.json');
 
 const mnemonic = 'sensor_wallet_seed';
 const network = 'network_address';
