@@ -7,7 +7,7 @@ if(typeof window !== 'undefined' && typeof window.web3 !== 'undefined'){
 }
 else {
   const provider = new Web3.providers.HttpProvider(
-    'http://13.80.105.129:8545'
+    'network_address'
   );
   web3 = new Web3(provider);
 }
